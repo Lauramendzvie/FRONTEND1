@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Super-Frosting";
+    src: url("./assets/Super\ Frosting.ttf") format(truetype);
+}
+
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0.5em 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  font-family: Super-Frosting;
+  text-decoration: none;
+  font-weight: none;
+  font-size: 90px;
+  gap: 10rem;
+  display: ;
+  flex-direction: row;
+}
+
+figure {
+  height: 170vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+
+   img{
+    width: 550px;
+    height: 750px;
+   }
+
+}
+
+button {
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+    border: none;
+    background-color: #757474;
+    margin-top: 80px;
+    color: aliceblue;
+    font-family: Super-Frosting;
+    font-size: 65px;
+
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	border: 2px #000000 solid;
+	text-align: center;
+	width: 20%;
+}
+
+
+
+ 
