@@ -1,92 +1,171 @@
 @font-face {
-    font-family: "Super-Frosting";
-    src: url("./assets/Super\ Frosting.ttf") format(truetype);
+  font-family: "Super-Frosting";
+  src: url("./assets/Super\ Frosting.ttf") format(truetype);
 }
 
 body {
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #ffffff;
-  color: #ffffff;
+  background: #17007d;
+  background: linear-gradient(90deg, rgba(23, 0, 125, 1) 0%, rgba(138, 27, 150, 1) 100%);
   text-align: center;
+  align-items: center;
+}
 
+
+* {
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-header {
-  width: 100%;
-  height: 120px;
-  background-color: #000000;
-  align-items: center;
-  justify-content: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0%;
-  margin: 0.5em 0 0 0;
-  display: flex;
-  justify-content: center;
-  gap: 3em;
-  flex-wrap: wrap;
-}
-
-nav a {
-  color: rgb(255, 255, 255);
-  font-family: Super-Frosting;
-  text-decoration: none;
-  font-weight: none;
-  font-size: 90px;
-  gap: 10rem;
-  display: ;
-  flex-direction: row;
-}
-
-figure {
-  height: 170vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-
-   img{
-    width: 550px;
-    height: 750px;
-   }
-
-}
 
 button {
-    width: 280px;
-    height: 180px;
-    border-radius: 20px;
-    border: none;
-    background-color: #757474;
-    margin-top: 80px;
-    color: aliceblue;
-    font-family: Super-Frosting;
-    font-size: 65px;
+  width: 280px;
+  height: 180px;
+  border-radius: 10px;
+  margin-left: 5px;
+  border: none;
+  background-color: #2d0352;
+  color: rgb(255, 255, 255);
+  font-family: Super-Frosting;
+  font-size: 65px;
+  justify-content: baseline;
+  align-items: baseline;
 
 }
+
 
 button:hover {
-    background-color: #000000;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-th, td {
-	padding: 10px;
-	border: 2px #000000 solid;
-	text-align: center;
-	width: 20%;
+  background-color: rgb(166, 73, 248);
 }
 
 
+.tabela-bingo td {
+  border: none;
+  border-radius: 5px;
+  width: 1000px;
+  background-color: #ffff;
+}
 
- 
+th {
+  font-family: "Super-Frosting";
+  font-size: 40px;
+  font-weight: 10;
+  color: rgb(255, 255, 255);
+  height: 90px;
+  border-radius: 9000px;
+  background-color: rgb(176, 143, 255);
+}
+
+.B {
+  background-color: rgb(166, 73, 248);
+}
+
+.I {
+  background-color: rgb(176, 143, 255);
+}
+
+.N {
+  background-color: rgb(166, 73, 248);
+}
+
+.G {
+  background-color: rgb(177, 147, 247);
+}
+
+.O {
+  background-color: rgb(166, 73, 248);
+}
+
+tr {
+  border: none;
+  background-color: #ffffff;
+  width: 100px;
+}
+
+.container-tabela {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  width: 90%;
+  height: 100vh;
+  margin-left:100px;
+
+}
+
+.tabela-bingo {
+  border: none;
+  font-size: 120%;
+  width: 600px;
+  height: 900px;
+  margin-left:100px;
+}
+
+.quadradobotoes {
+  background-color: aliceblue;
+  width: 690px;
+  height: 733px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  border-radius: 20px;
+  margin-right: 300px;
+}
+
+.quadradonumero {
+  background-color: rgb(184, 184, 184);
+  width: 490px;
+  height: 333px;
+  margin-bottom:1px;
+  border-radius: 20px;
+  
+}
+
+.botaoreto{
+  display:flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  width: 86%;
+  margin-top: 40px;
+}
+
+.quadradonumero {
+  background-color: rgb(255, 255, 255);
+  width: 490px;
+  height: 333px;
+  margin-bottom: 1px;
+  border-radius: 20px;
+  display: flex;        
+  justify-content: center;
+  align-items: center;
+}
+
+.quadradonumero {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.quadradonumero span {
+    font-family: "Super-Frosting", sans-serif;
+    font-size: 8rem;
+    color: rgb(166, 73, 248);
+    text-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+    letter-spacing: 15px;
+    font-weight: bold;
+}
