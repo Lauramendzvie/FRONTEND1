@@ -1,7 +1,7 @@
 
 alert("Ola! Seja muito bem vindo ao nosso site!!")
 
-let nome = prompt("qual é seu nome?");
+let = prompt("qual é seu nome?");
 
 alert("Seja bem vindo, temos o Prazer em te conhecer " + nome + " sinta se a vontade para navegar pelo nosso site");
 
@@ -147,7 +147,7 @@ console.log(arr);
 
 arr.shift("maria");
 console.log(arr);
-*/
+
  
 
 
